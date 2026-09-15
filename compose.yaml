@@ -1,0 +1,11 @@
+services:
+  smartx:
+    build: .
+    ports:
+      - "127.0.0.1:5080:8080"
+    volumes:
+      - smartx-data:/app/data
+    restart: unless-stopped
+
+volumes:
+  smartx-data:

@@ -1,0 +1,20 @@
+SMART-X — VISUAL STUDIO 2026
+
+1. Extract ALL files from SmartX-VisualStudio2026.zip.
+2. Install the ASP.NET and web development workload and .NET 10 SDK
+   using Visual Studio Installer if they are not already installed.
+3. Double-click SmartX.sln.
+4. In Solution Explorer, right-click SmartX.Api and choose
+   "Set as Startup Project". Do not choose SmartX.Core or SmartX.Tests.
+5. Choose the SmartX launch profile next to the green Run button.
+6. Press Ctrl+Shift+B to build, then Ctrl+F5 to start.
+7. The dashboard opens at http://localhost:5080.
+
+Alternatively, double-click Start-SmartX.cmd after installing the .NET 10 SDK.
+
+All frontend and backend source is included. The frontend is copied into
+the API output automatically during the build. No code needs to be pasted.
+
+Read README.md for features, troubleshooting, testing and GitHub instructions.
+Read docs/VERIFICATION.md for the checks actually completed on this delivery.
+The Task 1 research report is deferred until Task 2 is reviewed.
