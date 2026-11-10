@@ -12,9 +12,9 @@ SMART-X — VISUAL STUDIO 2026
 
 Alternatively, double-click Start-SmartX.cmd after installing the .NET 10 SDK.
 
-All frontend and backend source is included. The frontend is copied into
+The originally missing frontend and backend source has been restored. The frontend is copied into
 the API output automatically during the build. No code needs to be pasted.
 
 Read README.md for features, troubleshooting, testing and GitHub instructions.
 Read docs/VERIFICATION.md for the checks actually completed on this delivery.
-The Task 1 research report is deferred until Task 2 is reviewed.
+The final POE report is included as a separate DOCX and PDF. Fill its evidence placeholders after running the app.
